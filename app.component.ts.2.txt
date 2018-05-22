@@ -1,0 +1,17 @@
+
+app.component.ts.2
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'my-app',
+  template:  `<h1>{{title}}</h1>
+  <p class="main">{{contents}}</p> `
+})
+export class AppComponent  { 
+  title ='Angular 2 tips' ;
+ contents = 'ファイト
+
+
+！！';
+}
